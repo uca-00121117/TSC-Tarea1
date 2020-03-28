@@ -118,8 +118,9 @@ Matrix sumMatrix(Matrix A,Matrix B,int n,int m)
         }
         
     }
+    return R;
     
-}
+};
 
 // Transponer una Matriz
 
@@ -216,4 +217,4 @@ void inversa(Matrix m_invertir,Matrix &invers)
 
     };
 
-}
+};
